@@ -37,6 +37,7 @@ public class Main {
         Dev dev1 = new Dev();
         dev1.setNome("Bruna");
         dev1.inscreverBootcamp(bootcamp);
+        System.out.println("Aluno(a): " + dev1.getNome());
         System.out.println("Conteúdos inscritos: " + dev1.getContudosIscritos());
         dev1.progredir();
         dev1.progredir();
@@ -50,6 +51,7 @@ public class Main {
         Dev dev2 = new Dev();
         dev2.setNome("Julia");
         dev2.inscreverBootcamp(bootcamp);
+        System.out.println("Aluno(a): " + dev2.getNome());
         System.out.println("Conteúdos inscritos: " + dev2.getContudosIscritos());
         dev2.progredir();
         dev2.progredir();
